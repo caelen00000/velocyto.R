@@ -1,3 +1,6 @@
+Edited src/Makevars to link to boost libraries installed with vcpkg
+TODO: Need to figure out how to get this to work for other people.
+
 # velocyto.R
 RNA velocity estimation in R
 
