@@ -1,4 +1,4 @@
 CXX_STD = CXX11
 PKG_CXXFLAGS= $(SHLIB_OPENMP_CXXFLAGS) -I"C:/Users/camplain/vcpkg/installed/x64-windows/bin"
 PKG_CFLAGS=$(SHLIB_OPENMP_CFLAGS) -I"C:/Users/camplain/vcpkg/installed/x64-windows/bin"
-PKG_LIBS=-lboost_filesystem -l"boost_system-vc143-mt-x64-1_88.lib" -L"C:/Users/camplain/vcpkg/installed/x64-windows/lib" -lstdc++ $(LAPACK_LIBS) $(BLAS_LIBS)  $(SHLIB_OPENMP_CFLAGS) $(FLIBS)
+PKG_LIBS=-lboost_filesystem -l"boost_system-vc143-mt-x64-1_88" -L"C:/Users/camplain/vcpkg/installed/x64-windows/lib" -lstdc++ $(LAPACK_LIBS) $(BLAS_LIBS)  $(SHLIB_OPENMP_CFLAGS) $(FLIBS)
